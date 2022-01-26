@@ -5,76 +5,182 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>MUD</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='css/mud.css'>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
-   
+    <style type="text/css">
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gloria+Hallelujah&display=swap');
+       
 
-<!---->
+
+        .tabla{
+            display: flex;
+            flex-direction: row;
+            max-width: 600px; 
+            padding: 10px; 
+            margin:0 auto; 
+            border-collapse: collapse;
+        }
+
+
+       .cards{
+           display: flex;
+           flex-direction: row;
+           justify-content: space-between;
+       }
+       </style>
+
+
+   <!---->
+
+
     <!--HEADER-->
 
-    <table id="tabla">
+    <table class="tabla">
         <tr>
-            <td id="header">
+            <td style="background-color: #ecf0f1; background-color: #ecf0f1;">
                 <a href="https://mudmakeupdesign.mitiendanube.com/">
-                    <img id="header1" width="20%"src="media/mudlogo.png">
+                    <img id="header1" width="25%"src="https://i.postimg.cc/9F6cphwn/mudlogo.png">
                 </a>
             </td>
         </tr>
         <tr>
             <td style="padding: 0">
-                <img style="padding: 0; display: block" src="media/maquillaje.jpg" width="100%">
+                <img style="padding: 0; display: block" src="https://i.postimg.cc/X7CbXz1c/maquillaje.jpg" width="100%">
             </td>
         </tr>
         
 
         <!--BODY-->
-
+        
 
         <!--Introduccion-->
 
         <tr>
             <td style="background-color: #ecf0f1">
-                <div style="color: #34495e; margin: 4% 10% 2%; text-align: justify;font-family: Bebas Neue">
-                    <h1>Mt Fifteen Make up</h2>
-                    <p>Presupuesto</p>
-                    <p style="margin: 2px; font-size: 15px">
-                        <b>Hola! Buen día!</b>
-                    <p>Te enviamos el presupuesto de maquillaje y demás servicios de beauty para el día de la fiesta.</p>
-                    <p>Nuestra misión como Make Up Artist, consiste en diseñar un maquillaje acorde a las exigencias de la tecnología de HD y Blue Ray.</p>
-                    <p>Nuestro diferencial es el uso de fijadores que garantizan que el make up permanecerá intacto durante toda la fiesta.</p>
-                    <p>Más de 15 años de trabajo a nivel profesional, en producciones fotográficas, desfiles y muchas celebrities que nos eligen, hacen de MUD el lugar ideal para acompañarte en tu evento.</p>
+                <div>
+                    <h1 style="font-family: 'Gloria Hallelujah'; text-align: center; color: rgb(79, 14, 85); padding: 24px;">Mt Fifteen Make up</h1>
+                    <div style="color: #34495e; margin: 4% 10% 2%; text-align: justify;font-family: Bebas Neue">
+                        <p>Presupuesto</p>
+                        <p style="margin: 2px; font-size: 15px">
+                            <b>Hola! Buen día!</b>
+                        <p>Te enviamos el presupuesto de maquillaje y demás servicios de beauty para el día de la fiesta.</p>
+                        <p>Nuestra misión como Make Up Artist, consiste en diseñar un maquillaje acorde a las exigencias de la tecnología de HD y Blue Ray.</p>
+                        <p>Nuestro diferencial es el uso de fijadores que garantizan que el make up permanecerá intacto durante toda la fiesta.</p>
+                        <p>Más de 15 años de trabajo a nivel profesional, en producciones fotográficas, desfiles y muchas celebrities que nos eligen, hacen de MUD el lugar ideal para acompañarte en tu evento.</p>
+                    </div>
                 </div>
 
                 <!--Tarjeta de imagenes-->
 
-                <div id="container">
-                    <img src="media/mac1.jpg"  alt="maquillaje1" width="200px">
-                    <img src="media/mac3.jpg"  alt="maquillaje3" width="200px">
-                    <img src="media/mac2.jpg" alt="maquillaje2" width="200px">
+                <div style="display: flex; flex-direction: row;">
+                    <img src="https://i.postimg.cc/dkxL3b7W/mac1.jpg"  alt="maquillaje1" width="200px">
+                    <img src="https://i.postimg.cc/mkcGYXL4/mac3.jpg"  alt="maquillaje3" width="200px">
+                    <img src="https://i.postimg.cc/B6n36ZRX/mac2.jpg" alt="maquillaje2" width="200px">
                     
                 </div>
 
                 <!--PARTE DE SERVICIOS PRESTADOS-->
 
                 <div style="color: #34495e; margin: 4% 10% 2%; text-align: justify;font-family: Bebas Neue">
-                    <h1>Servicio</h1>
-                    <p>Maquillarte con la Directora de <img src="media/mudmini.png" width="30px"></img>, Celeste González, que utiliza un maletín con marcas internacionales como MAC, Lancome, Dior, Givenchy, Make up Forever, Channel, entre otras. Todos los productos son de gran fijación y a prueba de agua -water proof-.</p>
+                    <h1 style="font-family: 'Gloria Hallelujah'; text-align: center; color: rgb(79, 14, 85); padding: 24px;">Servicio</h1>
+                    <h5>En cuanto al maquillaje, ofrecemos dos opciones:</h5>
+                    <br>
+                    <div> 
+                        <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                            <img src="https://i.postimg.cc/qvcHxCTN/numerito.jpg" width="100px"></img> 
+                            <p>Maquillarte con la Directora de <img src="https://i.postimg.cc/x8tmB7dN/mudlogo.png" width="40px"></img>, Celeste González, que utiliza un maletín con marcas internacionales como MAC, Lancome, Dior, Givenchy, Make up Forever, Channel, entre otras. Todos los productos son de gran fijación y a prueba de agua -water proof-.</p>
+                        </div>
                         <div style="width: 100%;margin:20px 0; display: inline-block;text-align: center">
-                            <img style="margin: 5px" src="media/marcas.png" width="100%">
+                            <img style="margin: 5px" src="https://i.postimg.cc/KzhtTBVj/marcas.png" width="100%">
                         </div>
-                    <p>Maquillarte con una Makeup Artist de nuestro Staff, capacitadas por la directora de MUD.
-                            Se utiliza un maletín con productos variados de excelente calidad.</p>
-                        <div style="width: 100%; text-align: center">
-                            <a style="text-decoration: none; border-radius: 5px; padding: 11px 23px; color: white; background-color: #3498db" href="https://mudmakeupdesign.mitiendanube.com/">Ir a la página</a>	
+                        <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                            <p>Maquillarte con una Makeup Artist de nuestro Staff, capacitadas por la directora de <img src="https://i.postimg.cc/x8tmB7dN/mudlogo.png" width="40px"></img>.
+                                Se utiliza un maletín con productos variados de excelente calidad.</p>
+                            <img src="https://i.postimg.cc/qvcHxCTN/numerito.jpg" width="100px"></img> 
                         </div>
+                        <!--parte "Makeup" con dise;o al igual que hair etc-->
+                        <h3 style="font-family: 'Gloria Hallelujah'; text-align: center; color: rgb(79, 14, 85); padding: 24px;">MAKE UP</h3>
+                        <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                            <ul style="color: blueviolet;">
+                                <li>Una limpieza de cutis profunda.</li>
+                                <li>Máscaras según el tipo de piel.</li>
+                                <li>Maquillaje profesional.</li>
+                                <li>Fijadores (rostro, labios y ojos).</li>
+                                <li>Lip plummer (volumen natural para labios).</li>
+                                <li>Lash extender (extensión de pestañas).</li>
+                                <li>Pestañas postizas individuales.</li>
+                            </ul>
+                            <div>
+                                <p><b>CELESTE GONZÁLEZ</b></p>
+                                <p>$ 5000.-</p>
+                                <p><b>Prueba de Maquillaje</b></p>
+                                <p>$ 3000.-</p>
+                            </div>
+                        </div>
+                        <h3 style="font-family: 'Gloria Hallelujah'; text-align: center; color: rgb(79, 14, 85); padding: 24px;">HAIR STYLE</h3>
+                        <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                            <ul>
+                                <br>
+                                <br>
+                                <li>Análisis según tu tipo de cabello.</li>
+                                <li>Peinados según tu formologia de rostro.</li>
+                                <li>Final touch.</li>
+                                <li>Accesorios (costo adicional).</li>
+                            </ul>
+                            <div class="justify-content:center">
+                                <p><b>15 AÑOS</b></p>
+                                <p>$ 5000.-</p>
+                                <p><b>EVENTO</b></p>
+                                <p>$ 4000.-</p>
+                                <p><b>Prueba de Maquillaje</b></p>
+                                <p>$ 3000.-</p>
+                            </div>
+                        </div>
+                        <h3 style="font-family: 'Gloria Hallelujah'; text-align: center; color: rgb(79, 14, 85); padding: 24px;">ADITTIONALS</h3>
+                        <div class="cards">
+                            <ul>
+                                <li>Diseño y depilación de cejas</li>
+                            </ul>
+                            <div>
+                                <p>$600.-</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p style="color: #34495e; font-size: 15px; text-align: center;margin: 30px">VIÁTICOS (Según la zona)</p>
                 </div>
 
 
+                <!--INFORMACION FINAL-->
+                <div style="color: #34495e; margin: 4% 10% 2%; text-align: justify;font-family: Bebas Neue">
+                    <h1 style="font-family: 'Gloria Hallelujah'; text-align: center; color: rgb(79, 14, 85); padding: 24px;">El servicio se realiza en el salón o MUD</h1>
+                    <p>Tanto en maquillaje como en peinado, ofrecemos pruebas que se hacen en el estudio, para que el styling final quede acorde a tu gusto y al evento.</p>
+                    <br>
+                    <p>Se puede abonar en efectivo o con tarjeta (Precios validos al día de la fecha. Los precios pueden sufrir modificaciones.)</p>
+                    <div style="text-align: center;">
+                        <img src="https://i.postimg.cc/Gmvdg5kh/visa.png"  alt="maquillaje1" width="50px">
+                        <img src="https://i.postimg.cc/Hxvg7DC3/mastercard.png"  alt="maquillaje3" width="50px">
+                        <img src="https://i.postimg.cc/k5c9qR10/aexpress.png" alt="maquillaje2" width="50px">
+                        <img src="https://i.postimg.cc/BvssrBg5/mp.png" alt="maquillaje2" width="50px">
+                    </div>
+                    <br>
+                    <br>
+                    <p>Te invitamos a conocer nuestro estudio cuando gustes. Te esperamos en Brown 503, Quilmes, Buenos Aires.</p>
+                    <br>
+                    <br>
+                    <p>Saludos cordiales</p>
+                    <p><b>Make up Design</b></p>
+                </div>
+                <br>
+                <br>
                     <!--FOOTER-->
-
-                    <p style="color: #b3b3b3; font-size: 12px; text-align: center;margin: 30px 0 0">Poketrainers Trujillo 2016</p>
+                    <div style="width: 100%; text-align: center">
+                        <a style="text-decoration: none; border-radius: 5px; padding: 11px 23px; color: white; background-color: #3498db" href="https://mudmakeupdesign.mitiendanube.com/">Visitanos aca</a>	
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
                 </div>
             </td>
         </tr>
